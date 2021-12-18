@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FolderObject.IsRootFolder
 ```
 
@@ -14,7 +14,7 @@ FolderObject.IsRootFolder
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,fo
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -38,7 +38,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 IsRootFolder: False
 IsRootFolder: True
 ```

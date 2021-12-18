@@ -8,13 +8,13 @@
 
 **响应对象:**
 
-```
+```vb
 Response.Write variant
 ```
 
 **对于文本流对象:**
 
-```
+```vb
 Textstream.write(string)
 ```
 
@@ -26,7 +26,7 @@ Textstream.write(string)
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 response.write("<h1>ASP Write() Method</h2>")
 response.write("
@@ -39,7 +39,7 @@ response.write("
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 name="GeeksForGeeks"
 Response.Write(name)
@@ -50,7 +50,7 @@ Response.Write(name)
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -65,6 +65,6 @@ set fs=nothing
 
 **输出**
 
-```
+```vb
 Hello GeeksForGeeks
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Request.BinaryRead(count) 
 
 ```
@@ -19,7 +19,7 @@ Request.BinaryRead(count)
 
 ## HTML
 
-```
+```vb
 <%
 dim a,b
 a=Request.TotalBytes

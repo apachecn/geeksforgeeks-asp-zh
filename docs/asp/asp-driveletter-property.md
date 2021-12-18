@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.DriveLetter
 ```
 
@@ -14,7 +14,7 @@ DriveObject.DriveLetter
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,dr
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -32,6 +32,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Letter of the drive is: D
 ```

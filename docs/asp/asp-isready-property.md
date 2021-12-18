@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.IsReady
 ```
 
@@ -14,7 +14,7 @@ DriveObject.IsReady
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,d,n
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -41,6 +41,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Drive C is ready: true
 ```

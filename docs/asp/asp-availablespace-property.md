@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.AvailableSpace
 ```
 
@@ -14,7 +14,7 @@ DriveObject.AvailableSpace
 
 ## ASP
 
-```
+```vb
 <%
 Dim fs,dr
 Set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -34,6 +34,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The drive: D: has available space: 992345694
 ```

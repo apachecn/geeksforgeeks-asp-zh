@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DictionaryObject.Key(key)=newkey 
 ```
 
@@ -19,7 +19,7 @@ DictionaryObject.Key(key)=newkey
 
 ## ASP
 
-```
+```vb
 <%
 Dim dict
 
@@ -41,6 +41,6 @@ Response.Write("Value of changed key 'hd' is: " & dict.Item("hd"))
 
 **输出:**
 
-```
+```vb
 "Value of changed key 'hd' is: headphones
 ```

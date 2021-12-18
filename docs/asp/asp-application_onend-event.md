@@ -8,7 +8,7 @@
 
 ***句法***
 
-```
+```vb
 ***<SCRIPT LANGUAGE=ScriptLanguage RUNAT=Server>***
 ***Sub Application_OnEnd. . . End Sub***
 ***</SCRIPT>***
@@ -20,7 +20,7 @@
 
 **示例代码:**
 
-```
+```vb
 ***<script Language="VBScript" RUNAT=Server>***
 ***Sub Application_OnEnd()***
  ***Calculate_Stats()***

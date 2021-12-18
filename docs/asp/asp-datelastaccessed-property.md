@@ -8,13 +8,13 @@
 
 *   **is the file object:**
 
-```
+```vb
 FileObject.DateLastAccessed
 ```
 
 *   **is the folder object:**
 
-```
+```vb
 FolderObject.DateLastAccessed
 ```
 
@@ -22,7 +22,7 @@ FolderObject.DateLastAccessed
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,gfg
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -36,7 +36,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 File last accessed on: 12/29/2020 11:21:10 AM
 ```
 
@@ -44,7 +44,7 @@ File last accessed on: 12/29/2020 11:21:10 AM
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,fo
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -58,6 +58,6 @@ set fs=noQthing
 
 **输出:**
 
-```
+```vb
 Folder last accessed on: 12/29/2020 11:21:10 AM
 ```

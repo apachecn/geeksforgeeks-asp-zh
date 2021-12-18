@@ -6,7 +6,7 @@
 
 ***语法:***
 
-```
+```vb
 Server.Execute(path) 
 ```
 
@@ -18,7 +18,7 @@ Server.Execute(path)
 
 **Sudo.asp**
 
-```
+```vb
 <%
 response.write("Geeks For Geeks!<br>")
 %>
@@ -26,7 +26,7 @@ response.write("Geeks For Geeks!<br>")
 
 ***【GFG.asp】***
 
-```
+```vb
 <%
 response.write("Welcome to <br>")
 Server.Execute("file2.asp")
@@ -35,7 +35,7 @@ Server.Execute("file2.asp")
 
 ***输出***
 
-```
+```vb
 ***Welcome to*** 
 ***GeeksFoeGeeks*** 
 ```

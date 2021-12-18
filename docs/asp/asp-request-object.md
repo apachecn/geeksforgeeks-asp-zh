@@ -26,7 +26,7 @@
 
 ## ASP
 
-```
+```vb
 <%
 Response.Cookies("site")="GeeksforGeeks"
 sitename=Request.Cookies("site")
@@ -36,6 +36,6 @@ response.write("Lets Code with " & sitename)
 
 **输出**
 
-```
+```vb
 Lets code with GeeksforGeeks
 ```

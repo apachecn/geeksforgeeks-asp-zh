@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 TextStreamObject.WriteBlankLines(numlines)
 ```
 
@@ -18,7 +18,7 @@ TextStreamObject.WriteBlankLines(numlines)
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -34,7 +34,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Hello GeeksForGeeks
 
 A computer science portal for Geeks

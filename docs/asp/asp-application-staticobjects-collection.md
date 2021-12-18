@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```vb
 Application.StaticObjects( Key )  
 ```
 
@@ -18,7 +18,7 @@ Application.StaticObjects( Key )
 
 ## HTML
 
-```
+```vb
 <object runat="server" 
         scope="session"
         id="MsgBoard" 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Response.End 
 
 ```
@@ -17,7 +17,7 @@ Response.End
 
 ## HTML
 
-```
+```vb
 <html>
   <body>
 
@@ -40,7 +40,7 @@ Response.End
 
 **输出:**
 
-```
+```vb
 GeeksforGeeks
 
 ```

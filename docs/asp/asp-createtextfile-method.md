@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.CreateTextFile(filename[,overwrite[,unicode]])
 ```
 
@@ -20,7 +20,7 @@ FileSystemObject.CreateTextFile(filename[,overwrite[,unicode]])
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,tfile
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -35,6 +35,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 File is closed
 ```

@@ -8,13 +8,13 @@
 
 *   **对于文件对象:**
 
-    ```
+    ```vb
     FileObject.Drive
     ```
 
 *   **对于文件夹对象:**
 
-    ```
+    ```vb
     FolderObject.Drive
     ```
 
@@ -24,7 +24,7 @@
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -44,7 +44,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 File resides on drive: d:
 ```
 
@@ -52,7 +52,7 @@ File resides on drive: d:
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,fol
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -76,7 +76,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 This folder is on drive D:
 This folder is on drive F:
 ```

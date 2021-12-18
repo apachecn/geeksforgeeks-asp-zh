@@ -36,7 +36,7 @@
 
 ## ASP
 
-```
+```vb
 <%
     Response.Redirect "https://www.geeksforgeeks.org" 
     Response.AppendToLog "My log message"
@@ -49,6 +49,6 @@
 
 **输出**
 
-```
+```vb
 GeeksforGeeks
 ```

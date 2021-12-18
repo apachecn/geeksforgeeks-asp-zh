@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.ASPCode()
     ```
 
@@ -14,7 +14,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.ASPDescription()
     ```
 
@@ -22,7 +22,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.Category()
     ```
 
@@ -30,7 +30,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.Column()
     ```
 
@@ -38,7 +38,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.Description()
     ```
 
@@ -46,7 +46,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.File()
     ```
 
@@ -54,7 +54,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.Line()
     ```
 
@@ -62,7 +62,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.Number()
     ```
 
@@ -70,7 +70,7 @@
 
     **语法:**
 
-    ```
+    ```vb
     ASPError.Source() 
     ```
 
@@ -78,7 +78,7 @@
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim objErr
 set objErr=Server.GetLastError()

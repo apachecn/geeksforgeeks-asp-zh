@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```vb
 Response.Cookies(name)[(key)|.attribute]=value
 ```
 
@@ -27,7 +27,7 @@ Response.Cookies(name)[(key)|.attribute]=value
 
 **示例 1:** 下面的代码说明了如何创建名为“网站”的 cookies，并为其分配值“极客博客”。
 
-```
+```vb
 <%
 Response.Cookies("website")="GeeksForGeeks"
 %>
@@ -35,7 +35,7 @@ Response.Cookies("website")="GeeksForGeeks"
 
 **示例 2:** 下面的示例演示了如何为 cookie 设置值并为其属性赋值。
 
-```
+```vb
 <%  
  Response.Cookies("Type") = "fruits"  
  Response.Cookies("Type").Expires = "July 31, 2001"  

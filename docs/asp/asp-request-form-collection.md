@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```vb
 Request.Form( element )[(index)|.Count]
 ```
 
@@ -19,7 +19,7 @@ Request.Form( element )[(index)|.Count]
 
 ## 【PHP】
 
-```
+```vb
 <% 
 for i=1 to Request.Form("color").Count
  Response.Write(Request.Form("color")(i) & "<br>")

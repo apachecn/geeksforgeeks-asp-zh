@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DictionaryObject.Item(key)[=newitem]
 ```
 
@@ -19,7 +19,7 @@ DictionaryObject.Item(key)[=newitem]
 
 ## ASP
 
-```
+```vb
 <%
 Dim dict
 
@@ -44,7 +44,7 @@ Response.Write("<br>Value of key 'p' is: " & dict.Item("p"))
 
 **输出:**
 
-```
+```vb
 Value of key 'p' is: purple
 Value of key 'p' is: violet
 ```

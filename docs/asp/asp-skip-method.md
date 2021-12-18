@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```vb
 TextStreamObject.Skip(numchar)
 ```
 
@@ -18,7 +18,7 @@ TextStreamObject.Skip(numchar)
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f,t,x
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -36,6 +36,6 @@ Response.Write(x)
 
 **输出:**
 
-```
+```vb
 ForGeeks
 ```

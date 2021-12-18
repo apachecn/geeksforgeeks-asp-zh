@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.MoveFolder source,destination
 ```
 
@@ -20,7 +20,7 @@ FileSystemObject.MoveFolder source,destination
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs
 set fs=Server.CreateObject("Scripting.FileSystemObject")

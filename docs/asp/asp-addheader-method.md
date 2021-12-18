@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```vb
 response.AddHeader name,value
 
 ```
@@ -23,21 +23,21 @@ response.AddHeader name,value
 
 **例 1:**
 
-```
+```vb
 <% Response.AddHeader "WARNING","Error message text %>
 
 ```
 
 **示例 2:** 下面的代码使用 AddHeader 方法请求客户端使用基本身份验证。
 
-```
+```vb
 <% Response.Addheader "WWW-Authenticate", "BASIC" %>
 
 ```
 
 **例 3:**
 
-```
+```vb
 <% Response.AddHeader "CustomHeader", "CustomValue" %>
 ```
 

@@ -6,7 +6,7 @@ ASP 中的 ***GetAbsolutePathName 方法*** 用于返回从根目录开始的完
 
 **语法**
 
-```
+```vb
 FileSystemObject.GetAbsolutePathName(path) 
 ```
 
@@ -18,7 +18,7 @@ FileSystemObject.GetAbsolutePathName(path)
 
 ## ASP
 
-```
+```vb
 <%
 dim gfg,path
 set gfg=Server.CreateObject("Scripting.FileSystemObject")
@@ -29,6 +29,6 @@ response.write("The Complete path is " + path)
 
 ***输出:***
 
-```
+```vb
 d:\Hello\GFG\sudo.txt
 ```

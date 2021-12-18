@@ -10,7 +10,7 @@
 
 **语法**
 
-```
+```vb
 Request.QueryString(variable)[(index)|.Count] 
 ```
 
@@ -25,13 +25,13 @@ Request.QueryString(variable)[(index)|.Count]
 
 **发出如下请求:**
 
-```
+```vb
 ***https://www.GeeksForGeeks.org/sudo/geeks.asp?x=Manas&x=Sushant***
 ```
 
 ## Geeks.asp
 
-```
+```vb
 <%
 for i=1 to Request.QueryString("x").Count
   Response.Write(Request.QueryString("x")(i) & "<br>")
@@ -41,7 +41,7 @@ next
 
 **输出**
 
-```
+```vb
 Manas
 Sushant
 ```

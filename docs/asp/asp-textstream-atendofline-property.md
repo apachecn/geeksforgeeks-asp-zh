@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```vb
 TextStreamObject.AtEndOfLine
 ```
 
@@ -16,7 +16,7 @@ TextStreamObject.AtEndOfLine
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f,t,x
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -35,6 +35,6 @@ Response.Write("The last character im the line is: " & x)
 
 **输出:**
 
-```
+```vb
 The last character in the line is s. 
 ```

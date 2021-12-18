@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```vb
 FileSystemObject.DriveExists(drive) 
 ```
 
@@ -18,7 +18,7 @@ FileSystemObject.DriveExists(drive)
 
 ## ASP
 
-```
+```vb
 <%
 dim gfg
 set gfg=Server.CreateObject("Scripting.FileSystemObject")
@@ -33,6 +33,6 @@ set gfg=nothing
 
 **输出:**
 
-```
+```vb
 Drive d: exists
 ```

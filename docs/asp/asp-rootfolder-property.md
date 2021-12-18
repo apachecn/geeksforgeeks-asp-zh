@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.RootFolder 
 ```
 
@@ -14,7 +14,7 @@ DriveObject.RootFolder
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,d
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -32,6 +32,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Root folder of the drive is: D:\
 ```

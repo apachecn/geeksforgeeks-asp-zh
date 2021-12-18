@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.FreeSpace
 ```
 
@@ -14,7 +14,7 @@ DriveObject.FreeSpace
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,dr
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -33,6 +33,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The drive D: has 8237483934 free space
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 ***<SCRIPT LANGUAGE=ScriptLanguage RUNAT=Server>***
 ***Sub Application_OnStart. . . End Sub***
 ***</SCRIPT>***
@@ -22,7 +22,7 @@
 
 **HTML 文件**
 
-```
+```vb
 <***html>***
  ***<head>***
 ***</head>***

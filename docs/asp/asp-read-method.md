@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 TextStreamObject.Read(numchar)
 ```
 
@@ -18,7 +18,7 @@ TextStreamObject.Read(numchar)
 
 ## ASP
 
-```
+```vb
 <%
 dim gfg,f,t,x
 set gfg=Server.CreateObject("Scripting.FileSystemObject")
@@ -35,6 +35,6 @@ Response.Write("The First Ten characters are: " & x)
 
 **输出:**
 
-```
+```vb
 Hello Geeks
 ```

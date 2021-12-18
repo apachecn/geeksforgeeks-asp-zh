@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.CreateFolder( name ) 
 ```
 
@@ -16,7 +16,7 @@ FileSystemObject.CreateFolder( name )
 
 **示例代码:**本示例使用 CreateFolder()方法创建一个名为“hello”的新文件夹。
 
-```
+```vb
 <%
 dim fs,f
 set fs = Server.CreateObject("Scripting.FileSystemObject")

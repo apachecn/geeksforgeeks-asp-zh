@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.Drives
 ```
 
@@ -14,7 +14,7 @@ FileSystemObject.Drives
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,fo,x
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -35,7 +35,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The drives present are:
 Drive: C
 Drive: D

@@ -8,13 +8,13 @@
 
 *   [**is the file object:**](https://www.geeksforgeeks.org/asp-deletefile-method/)
 
-```
+```vb
 FileObject.Delete[(force)]
 ```
 
 *   [**is the folder object:**](https://www.geeksforgeeks.org/asp-deletefolder-method/)
 
-```
+```vb
 FileObject.Delete[(force)]
 ```
 
@@ -26,7 +26,7 @@ FileObject.Delete[(force)]
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.DeleteFile(filename[,force])
 ```
 
@@ -19,7 +19,7 @@ FileSystemObject.DeleteFile(filename[,force])
 
 ## ASP
 
-```
+```vb
 <%
 dim fs
 Set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -34,6 +34,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Exist file is Deleted
 ```

@@ -6,7 +6,7 @@
 
 ***语法:***
 
-```
+```vb
 ***FileSystemObject.GetFile(path)*** 
 ```
 
@@ -18,7 +18,7 @@
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -32,6 +32,6 @@ set fs=nothing
 
 ***输出***
 
-```
+```vb
 ***The file was last modified on 01/01/20 4:23:56 AM***
 ```

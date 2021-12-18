@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```vb
 response.CacheControl[=control_header]
 
 ```
@@ -22,7 +22,7 @@ response.CacheControl[=control_header]
 
 ## **超文本标记语言**
 
-```
+```vb
 // Property set to Public cache
 <% response.CacheControl="Public" %>
 ```
@@ -31,7 +31,7 @@ response.CacheControl[=control_header]
 
 ## **HTML**
 
-```
+```vb
 // Property set to private cache 
 <% response.CacheControl="Private" %>
 ```

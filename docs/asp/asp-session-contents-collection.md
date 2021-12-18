@@ -8,7 +8,7 @@ T2 会议。内容收集用于通过脚本命令收集附加到应用对象的�
 
 ******语法:******
 
-```
+```vb
 **Session.Contents(Key)** 
 ```
 
@@ -20,7 +20,7 @@ T2 会议。内容收集用于通过脚本命令收集附加到应用对象的�
 
 ## ****动态服务器页面****
 
-```
+```vb
 **<%
 Session("name")="Hege"
 Set Session("objtest")=Server.CreateObject("ADODB.Connection")
@@ -31,7 +31,7 @@ Set Session("objtest")=Server.CreateObject("ADODB.Connection")
 
 ## ****ASP****
 
-```
+```vb
 **<%
 Session("Name")="Akku"
 Session("Favourite Gane")="Cricket"
@@ -44,7 +44,7 @@ next
 
 ******输出:******
 
-```
+```vb
 **Name = Akku 
 Favourite Game = Cricket** 
 ```

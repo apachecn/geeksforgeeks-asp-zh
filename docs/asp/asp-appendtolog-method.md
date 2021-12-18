@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 response.AppendToLog string
 ```
 
@@ -18,7 +18,7 @@ response.AppendToLog string
 
 **示例:**下面的代码将文本“内容更新”添加到日志文件中:
 
-```
+```vb
 <%
   Response.AppendToLog "My log message"
 %>

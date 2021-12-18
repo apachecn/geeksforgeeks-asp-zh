@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```vb
 <!DOCTYPE html>
 <html>
 
@@ -19,7 +19,7 @@
 
 **输出:**
 
-```
+```vb
 Welcome to GeeksforGeeks!
 ```
 
@@ -27,7 +27,7 @@ Welcome to GeeksforGeeks!
 
 **例:**
 
-```
+```vb
 @{ 
     var rank = 50;
 }
@@ -43,7 +43,7 @@ Welcome to GeeksforGeeks!
 
 **输出:**
 
-```
+```vb
 Welcome to GeeksforGeeks!
 ```
 

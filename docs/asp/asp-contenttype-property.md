@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 response.ContentType[=contenttype] 
 
 ```
@@ -17,7 +17,7 @@ response.ContentType[=contenttype]
 
 ## HTML
 
-```
+```vb
 <%response.ContentType="text/HTML"%>
 <%response.ContentType="image/GIF"%>
 <%response.ContentType="image/JPEG"%>

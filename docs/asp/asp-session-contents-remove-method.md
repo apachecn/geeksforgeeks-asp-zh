@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```vb
 ***Session.Contents.Remove(name|index)*** 
 ```
 
@@ -14,7 +14,7 @@
 
 ***示例:*** 下面的代码说明了如何从内容列表中删除第三项。
 
-```
+```vb
 ***<%***
 ***Session("item1")=("Geeks")***
 ***Session("item2")=("For")***
@@ -31,7 +31,7 @@
 
 **输出**
 
-```
+```vb
  ***item1= Geeks***
  ***iten2=For***
  ***item4=Sudo*** 

@@ -8,13 +8,13 @@
 
 *   **用于文件对象:**
 
-    ```
+    ```vb
     FileObject.ShortPath
     ```
 
 *   **用于文件夹对象:**
 
-    ```
+    ```vb
     FolderObject.ShortPath
     ```
 
@@ -24,7 +24,7 @@
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -45,7 +45,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Full Path: D:\geeksforgeeksfolder\gfglongfilename.txt
 Short Path: D:\GEEKSF~1\GFGLON~1.TXT
 ```
@@ -54,7 +54,7 @@ Short Path: D:\GEEKSF~1\GFGLON~1.TXT
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -75,7 +75,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Full Path: D:\geeksforgeeksfolder
 Short Path: D:\GEEKSF~1
 ```

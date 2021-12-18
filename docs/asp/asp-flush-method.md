@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```vb
 Response.Flush 
 
 ```
@@ -15,7 +15,7 @@ Response.Flush
 
 ## HTML
 
-```
+```vb
 <!-- Flush method set to true -->
 < % Response.Buffer=true% >
 <html>  
@@ -32,7 +32,7 @@ Response.Flush
 
 **输出:**
 
-```
+```vb
 GeeksForGeeks
 Hello Geeks 
 

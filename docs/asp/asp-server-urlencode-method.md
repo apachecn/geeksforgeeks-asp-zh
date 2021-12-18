@@ -9,7 +9,7 @@
 
 ***语法:***
 
-```
+```vb
 ***Server.URLEncode(str***ing)
 ```
 
@@ -19,7 +19,7 @@
 
 ## ASP
 
-```
+```vb
 <%
 response.write(Server.URLEncode("https://www.geeksforgeeks.org"))
 %>
@@ -27,6 +27,6 @@ response.write(Server.URLEncode("https://www.geeksforgeeks.org"))
 
 ***输出:***
 
-```
+```vb
 https%3A%2F%2Fwww%2Egeeksforgeeks%2Eorg
 ```

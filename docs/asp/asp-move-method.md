@@ -8,13 +8,13 @@
 
 *   **对于文件对象:**
 
-    ```
+    ```vb
     FileObject.Move(destination)
     ```
 
 *   **对于文件夹对象:**
 
-    ```
+    ```vb
     FolderObject.Move(destination)
     ```
 
@@ -28,7 +28,7 @@
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,f,ts
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -61,7 +61,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Original File Content: This is an example file
 File is Moved!
 Moved File Content: This is an example file
@@ -71,7 +71,7 @@ Moved File Content: This is an example file
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,f,ts
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -96,7 +96,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Folder is Moved!
 Folder successfully accessed
 ```

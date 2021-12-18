@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Application.Lock
 ```
 

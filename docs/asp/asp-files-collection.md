@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FolderObject.Files
 ```
 
@@ -14,7 +14,7 @@ FolderObject.Files
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,fo,x
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -35,7 +35,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Filename: GFG_adv.txt
 Filename: sudo.txt
 Filename: ram.txt

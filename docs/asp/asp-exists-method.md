@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DictionaryObject.Exists(key)
 ```
 
@@ -18,7 +18,7 @@ DictionaryObject.Exists(key)
 
 ## ASP
 
-```
+```vb
 <%
 dim dict
 
@@ -52,7 +52,7 @@ set dict=nothing
 
 **输出:**
 
-```
+```vb
 The 'g' key exists in the dictionary
 The 'm' key does not exist in the dictionary 
 ```

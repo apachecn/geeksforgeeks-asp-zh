@@ -8,13 +8,13 @@
 
 *   **is the file object:**
 
-```
+```vb
 FileObject.Size 
 ```
 
 *   **is the folder object:**
 
-```
+```vb
 FolderObject.Size 
 ```
 
@@ -22,7 +22,7 @@ FolderObject.Size
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -36,7 +36,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The size of GFG.asp is: 100323 bytes.
 ```
 
@@ -44,7 +44,7 @@ The size of GFG.asp is: 100323 bytes.
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,fo
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -58,6 +58,6 @@ set fs=nothing
 
 **输出**
 
-```
+```vb
 The size of the folder test is: 123456 bytes.
 ```

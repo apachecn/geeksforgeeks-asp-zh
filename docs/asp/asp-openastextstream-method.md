@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileObject.OpenAsTextStream(mode, format)
 ```
 
@@ -25,7 +25,7 @@ FileObject.OpenAsTextStream(mode, format)
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f,ts
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -61,6 +61,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 This is a GeeksforGeeks example
 ```

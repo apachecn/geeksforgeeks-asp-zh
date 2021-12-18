@@ -8,13 +8,13 @@
 
 *   **for file object:**
 
-```
+```vb
 FileObject.Name[=newname]
 ```
 
 *   **for folder objects:**
 
-```
+```vb
 FolderObject.Name[=newname]
 ```
 
@@ -26,7 +26,7 @@ FolderObject.Name[=newname]
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 response.Expires[=number] 
 
 ```
@@ -17,6 +17,6 @@ response.Expires[=number]
 
 ## HTML
 
-```
+```vb
 <% Response.Expires = -1 %> 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DictionaryObject.Count
 ```
 
@@ -14,7 +14,7 @@ DictionaryObject.Count
 
 ## ASP
 
-```
+```vb
 <%
 dim dict
 
@@ -41,7 +41,7 @@ set dict=nothing
 
 **输出:**
 
-```
+```vb
 Current number of entries: 3
 Current number of entries: 4
 ```

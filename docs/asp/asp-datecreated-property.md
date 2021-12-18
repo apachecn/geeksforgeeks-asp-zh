@@ -8,13 +8,13 @@
 
 *   **用于文件对象:**
 
-    ```
+    ```vb
     FileObject.DateCreated
     ```
 
 *   **用于文件夹对象:**
 
-    ```
+    ```vb
     FolderObject.DateCreated
     ```
 
@@ -24,7 +24,7 @@
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -42,7 +42,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 File created on: 3/4/2020 10:07:20 AM
 ```
 
@@ -50,7 +50,7 @@ File created on: 3/4/2020 10:07:20 AM
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,fol
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -69,6 +69,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 This folder was created on: 12-03-2021 12:54:29 
 ```

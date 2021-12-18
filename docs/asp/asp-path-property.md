@@ -8,19 +8,19 @@
 
 *   **对于文件对象**
 
-    ```
+    ```vb
     FileObject.Path
     ```
 
 *   **对于文件夹对象:**
 
-    ```
+    ```vb
     FolderObject.Path
     ```
 
 **驱动对象:**
 
-```
+```vb
 DriveObject.Path
 ```
 
@@ -30,7 +30,7 @@ DriveObject.Path
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -48,7 +48,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Complete path for the specified file: d:\GFG\sudo\geeks.asp
 ```
 
@@ -56,7 +56,7 @@ Complete path for the specified file: d:\GFG\sudo\geeks.asp
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,fol
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -74,7 +74,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The path of the folder is D:\GFG\geeks
 ```
 
@@ -82,7 +82,7 @@ The path of the folder is D:\GFG\geeks
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,drive
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -100,6 +100,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The path of the drive is: D:
 ```

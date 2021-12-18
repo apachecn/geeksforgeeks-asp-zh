@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```vb
 Request.Cookies( cookie )[(key)|**.**attribute]
 ```
 
@@ -26,7 +26,7 @@ Request.Cookies( cookie )[(key)|**.**attribute]
 
 **例:**基本上“请求。Cookies”命令用于获取 cookie 值。下面的代码说明了如何返回名为“firstname”的 cookies 的值。
 
-```
+```vb
 <%
 Response.Cookies("site")="GeeksforGeeks"
 sname=Request.Cookies("site")
@@ -36,6 +36,6 @@ response.write("Grow with " & sname)
 
 **输出:**
 
-```
+```vb
 Grow with GeeksforGeeks
 ```

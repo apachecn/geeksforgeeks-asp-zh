@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```vb
 FileSystemObject.MoveFile source,destination
 ```
 
@@ -20,7 +20,7 @@ FileSystemObject.MoveFile source,destination
 
 ## ASP
 
-```
+```vb
 <%
 dim fs
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -32,6 +32,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The location of the file is changed
 ```

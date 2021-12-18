@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Application.Contents.Remove(name|index)
 
 ```
@@ -17,7 +17,7 @@ Application.Contents.Remove(name|index)
 
 **示例:**下面的代码说明了如何从内容列表中删除第二项。
 
-```
+```vb
 <%
 Application("'name1")=("GeeksforGeeks")
 Application("name2")=("Javatpoint")
@@ -32,7 +32,7 @@ next
 
 **输出**
 
-```
+```vb
 name1=GeeksforGeeks
 name3=Sanfoundary 
 

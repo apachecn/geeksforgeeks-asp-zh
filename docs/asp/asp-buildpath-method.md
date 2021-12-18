@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 [newpath=]FileSystemObject.BuildPath(path,name)
 ```
 
@@ -17,7 +17,7 @@
 
 ***示例代码下面的代码演示了***
 
-```
+```vb
 ***<%***
 ***dim fs,path***
 ***set fs=Server.CreateObject("Scripting.FileSystemObject")***
@@ -31,6 +31,6 @@
 
 ***<u>输出:</u>***
 
-```
+```vb
 d:\myfiles\hello
 ```

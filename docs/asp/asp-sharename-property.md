@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.ShareName 
 ```
 
@@ -14,7 +14,7 @@ DriveObject.ShareName
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,d
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -32,6 +32,6 @@ set fs=nothing
 
 **输出**
 
-```
+```vb
 The share name of drive: GeeksForGeeks
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Response.Redirect URL
 
 ```
@@ -19,7 +19,7 @@ Response.Redirect URL
 
 **示例**:下面的代码将用户重定向到极客网站。
 
-```
+```vb
 <%
 Response.Redirect "https://www.GeelsforGeeks.org.in"
 %>

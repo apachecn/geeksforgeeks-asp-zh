@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Session.SessionID  
 ```
 
@@ -14,7 +14,7 @@ Session.SessionID
 
 ## Javascript
 
-```
+```vb
 <%
 Response.Write(Session.SessionID)
 %>
@@ -22,6 +22,6 @@ Response.Write(Session.SessionID)
 
 **输出:**
 
-```
+```vb
 7464747834
 ```

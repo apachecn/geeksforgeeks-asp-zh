@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.SerialNumber
 ```
 
@@ -14,7 +14,7 @@ DriveObject.SerialNumber
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,dr
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -32,6 +32,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Serial No. of the drive is 1108724040
 ```

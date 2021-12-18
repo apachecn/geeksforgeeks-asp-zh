@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 response.Clear
 ```
 
@@ -16,7 +16,7 @@ response.Clear
 
 **例:**
 
-```
+```vb
 <%
 // Buffer set to true
 response.Buffer=true
@@ -29,7 +29,7 @@ response.Clear
 
 **输出:**
 
-```
+```vb
 None
 ```
 

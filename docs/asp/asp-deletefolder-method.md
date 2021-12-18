@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.DeleteFolder(foldername[,force])
 ```
 
@@ -19,7 +19,7 @@ FileSystemObject.DeleteFolder(foldername[,force])
 
 ## ASP
 
-```
+```vb
 <%
 dim gfg
 set gfg=Server.CreateObject("Scripting.FileSystemObject")
@@ -33,6 +33,6 @@ set gfg=nothing
 
 **输出:**
 
-```
+```vb
 Folder is Deleted
 ```

@@ -8,13 +8,13 @@
 
 *   **对于文件夹对象:**
 
-    ```
+    ```vb
     FolderObject.CreateTextFile(filename, overwrite, unicode)
     ```
 
 *   **文件系统对象:**
 
-    ```
+    ```vb
     FileSystemObject.CreateTextFile(filename, overwrite, unicode)
     ```
 
@@ -30,7 +30,7 @@
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,fo,tfile
 Set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -62,7 +62,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 A new textfile has been created!
 The File Contents are: Hello Geeks! 
 ```
@@ -71,7 +71,7 @@ The File Contents are: Hello Geeks!
 
 ## 动态服务器页面
 
-```
+```vb
 <%
 dim fs,txtfile
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -99,7 +99,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The new text file has been created!
 The File Contents are: Hello World!
 ```

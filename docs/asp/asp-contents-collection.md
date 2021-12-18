@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```vb
 Application.Contents(Key) 
 
 ```
@@ -19,7 +19,7 @@ Application.Contents(Key)
 
 **示例 1:** 我们使用来添加将要添加到内容集合中的名称和对象。
 
-```
+```vb
 <%
 Application("name")="GeeksForGeeks"
 Set Application("objtest")=Server.CreateObject("ADODB.Connection")
@@ -29,7 +29,7 @@ Set Application("objtest")=Server.CreateObject("ADODB.Connection")
 
 **例 2:**
 
-```
+```vb
 <%
 Application("author")="GeeksforGeeks"
 Application("Contributors")="Rahul Jain"
@@ -43,7 +43,7 @@ next
 
 **输出**
 
-```
+```vb
 author=GeeksforGeeks
 Contributors=Rahul Jain
 

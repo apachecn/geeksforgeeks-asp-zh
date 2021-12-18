@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Server.CreateObject(progID) 
 ```
 
@@ -16,7 +16,7 @@ Server.CreateObject(progID)
 
 ## **ASP**
 
-```
+```vb
 <%
 Set adrot=Server.CreateObject("MSWC.AdRotator")
 %>
@@ -26,7 +26,7 @@ Set adrot=Server.CreateObject("MSWC.AdRotator")
 
 ## **ASP**
 
-```
+```vb
 <%
 Set Application=Server.CreateObject("Application")
 %>

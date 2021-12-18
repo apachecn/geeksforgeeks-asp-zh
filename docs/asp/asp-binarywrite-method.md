@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 response.BinaryWrite data 
 ```
 
@@ -19,7 +19,7 @@ response.BinaryWrite data
 
 ## java 描述语言
 
-```
+```vb
 <%
    Set objBinaryGen=Server.CreateObject("MyComponents.BinaryGenerator")
    pic = objBinaryGen.MakePicture

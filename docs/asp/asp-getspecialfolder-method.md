@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.GetSpecialFolder(foldername) 
 ```
 
@@ -22,7 +22,7 @@ FileSystemObject.GetSpecialFolder(foldername)
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,p
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -35,6 +35,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 C:\WINNT\system32
 ```

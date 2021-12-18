@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 ***Session.StaticObjects( Key )*** 
 ```
 
@@ -18,7 +18,7 @@
 
 ## HTML
 
-```
+```vb
 <object runat="server" 
         scope="session"
         id="MsgBoard"

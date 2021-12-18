@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Server.ScriptTimeout[=NumSeconds] 
 ```
 
@@ -18,7 +18,7 @@ Server.ScriptTimeout[=NumSeconds]
 
 ## ASP
 
-```
+```vb
 <%
 <!-- Set -->
 Server.ScriptTimeout=50
@@ -29,6 +29,6 @@ Response.Write(Server.ScriptTimeout)
 
 **输出:**
 
-```
+```vb
 50
 ```

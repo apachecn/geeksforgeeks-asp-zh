@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Session.LCID(=LCID) 
 ```
 
@@ -18,7 +18,7 @@ Session.LCID(=LCID)
 
 ## ASP
 
-```
+```vb
 <%
 response.write("
 <p>")
@@ -32,7 +32,7 @@ response.write("</p>
 
 ***输出:***
 
-```
+```vb
 ***Default LCID is: 2048***
 ***Date format is: 12/11/2001***
 ***Currency format is: $100.0*** 

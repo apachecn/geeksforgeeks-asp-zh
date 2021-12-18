@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```
+```vb
 <html>
     <head>
         <title>ASP page</title>
@@ -21,7 +21,7 @@
 
 **输出**
 
-```
+```vb
 Welcome to GeeksForGeeks
 ```
 

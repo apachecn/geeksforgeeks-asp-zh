@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.DriveType
 ```
 
@@ -23,7 +23,7 @@ DriveObject.DriveType
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,dr
 set fs=Server.CreateObject("Scripting.FileSystemObject")

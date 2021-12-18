@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```vb
 DictionaryObject.CompareMode[=compare]
 ```
 
@@ -24,7 +24,7 @@ DictionaryObject.CompareMode[=compare]
 
 ## ASP
 
-```
+```vb
 <%
 dim dic
 
@@ -53,7 +53,7 @@ Response.Write("The 'c' key-value was successfully added!")
 
 **输出:**
 
-```
+```vb
 The 'p' key-value was successfully added!
 An error occurred on the server when processing the URL.
 ```

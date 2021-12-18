@@ -8,13 +8,13 @@
 
 *   **对于文件对象:**
 
-    ```
+    ```vb
     FileObject.ShortName
     ```
 
 *   **对于文件夹对象:**
 
-    ```
+    ```vb
     FolderObject.ShortName
     ```
 
@@ -24,7 +24,7 @@
 
     ## 动态服务器页面
 
-    ```
+    ```vb
     <%
     dim fs,f
     set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -45,7 +45,7 @@
 
     **输出:**
 
-    ```
+    ```vb
     Full Name: alargefilename.txt
     Short Name: ALARGE~1.TXT
     ```
@@ -54,7 +54,7 @@
 
     ## 动态服务器页面
 
-    ```
+    ```vb
     <%
     dim fs,fol
     set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -75,7 +75,7 @@
 
     **输出:**
 
-    ```
+    ```vb
     Full Name: geeksforgeeksfolder
     Short Name: GEEKSF~1
     ```

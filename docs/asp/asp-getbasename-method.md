@@ -8,7 +8,7 @@ ASP 中的 **GetBaseName 方法**用于从文件的指定位置返回文件或�
 
 ***句法***
 
-```
+```vb
 ***FileSystemObject.GetBaseName(path)***
 ```
 
@@ -20,7 +20,7 @@ ASP 中的 **GetBaseName 方法**用于从文件的指定位置返回文件或�
 
 ## Javascript
 
-```
+```vb
 <%
 dim fs
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -31,6 +31,6 @@ set fs=nothing
 
 ***输出***
 
-```
+```vb
 ***GeeksForGeeks***
 ```

@@ -6,7 +6,7 @@ ASP 中的 ***GetFileName 方法是*** 用于返回代表 ASP 文件名称的字
 
 **语法:**
 
-```
+```vb
 ***FileSystemObject.GetFileName(path)*** 
 ```
 
@@ -18,7 +18,7 @@ ASP 中的 ***GetFileName 方法是*** 用于返回代表 ASP 文件名称的字
 
 ## Javascript
 
-```
+```vb
 <%
 dim fs,p
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -30,6 +30,6 @@ set fs=nothing
 
 ***输出:***
 
-```
+```vb
 ***GFG***
 ```

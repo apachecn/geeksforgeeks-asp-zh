@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DictionaryObject.Remove(key)
 ```
 
@@ -18,7 +18,7 @@ DictionaryObject.Remove(key)
 
 ## ASP
 
-```
+```vb
 <%
 dim d,a,i
 set d=Server.CreateObject("Scripting.Dictionary")
@@ -42,7 +42,7 @@ set d=nothing
 
 **输出:**
 
-```
+```vb
 Key Values
 m
 z

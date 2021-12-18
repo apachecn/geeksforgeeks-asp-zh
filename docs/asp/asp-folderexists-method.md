@@ -6,7 +6,7 @@ ASP 中的 ***文件夹存在方法*** 用于返回指示特定文件夹是否�
 
 **语法:**
 
-```
+```vb
 ***FileSystemObject.FolderExists(foldername)***
 ```
 
@@ -18,7 +18,7 @@ ASP 中的 ***文件夹存在方法*** 用于返回指示特定文件夹是否�
 
 ## ASP
 
-```
+```vb
 <%
 dim fs
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -33,6 +33,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Folder d:\GFG exists
 ```

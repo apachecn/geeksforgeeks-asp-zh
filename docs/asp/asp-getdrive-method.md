@@ -6,7 +6,7 @@ ASP 中的**获取驱动方法用于返回对应于指定路径中驱动器的�
 
 **语法:**
 
-```
+```vb
 FileSystemObject.GetDrive(drivespec) 
 ```
 
@@ -18,7 +18,7 @@ FileSystemObject.GetDrive(drivespec)
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,d
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -30,6 +30,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 ***Drive is: d***
 ```

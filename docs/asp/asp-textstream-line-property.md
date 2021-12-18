@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 TextStreamObject.Line 
 ```
 
@@ -14,7 +14,7 @@ TextStreamObject.Line
 
 ## ASP
 
-```
+```vb
 <%
 dim gfg,f,t
 set gfg=Server.CreateObject("Scripting.FileSystemObject")
@@ -36,7 +36,7 @@ t.Close
 
 **输出:**
 
-```
+```vb
 Line 1: Hello GeeksForGeeks!
 Line 2: A computer science portal for geeks!
 Line 3:  GFG is a Good Platform to code!

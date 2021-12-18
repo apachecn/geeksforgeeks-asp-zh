@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 response.Status=statusdescription  
 
 ```
@@ -21,7 +21,7 @@ response.Status=statusdescription
 
 ## HTML
 
-```
+```vb
 <%
 ip=request.ServerVariables("REMOTE_ADDR")
 if ip<>"194.248.333.500" then

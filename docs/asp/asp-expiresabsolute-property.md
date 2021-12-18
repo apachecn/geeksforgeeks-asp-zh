@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```vb
 response.ExpiresAbsolute[=[date][time]] 
 
 ```
@@ -22,7 +22,7 @@ response.ExpiresAbsolute[=[date][time]]
 
 ## HTML
 
-```
+```vb
 // setting the date and time 
 <% response.ExpiresAbsolute=#March 23,2020 14:00:00# %>
 ```

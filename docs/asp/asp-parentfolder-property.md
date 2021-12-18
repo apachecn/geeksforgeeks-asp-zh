@@ -8,13 +8,13 @@
 
 *   **用于文件对象:**
 
-    ```
+    ```vb
     FileObject.ParentFolder
     ```
 
 *   **用于文件夹对象:**
 
-    ```
+    ```vb
     FolderObject.ParentFolder
     ```
 
@@ -24,7 +24,7 @@
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -44,7 +44,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The file test.asp is in the folder: d:\GFG\sudo
 ```
 
@@ -52,7 +52,7 @@ The file test.asp is in the folder: d:\GFG\sudo
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,fol
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -72,6 +72,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The 'sudo' folder is in the folder: D:\GFG
 ```

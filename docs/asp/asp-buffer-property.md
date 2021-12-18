@@ -11,7 +11,7 @@ ASP 中的**缓冲属性**用于指定输出是否缓冲。当页面缓冲时，
 
 **语法:**
 
-```
+```vb
 response.Buffer[=flag]
 ```
 
@@ -28,7 +28,7 @@ response.Buffer[=flag]
 
 ## 超文本标记语言
 
-```
+```vb
 <!-- Buffer Property is set to true -->
 <% response.Buffer=true %>
 <html>
@@ -45,7 +45,7 @@ response.Buffer[=flag]
 
 **输出:**这里标志值设置为真，所以整个服务器脚本已经成功编译，然后输出才会发送到客户端。
 
-```
+```vb
 GeeksforGeeks is computer science portal for Geeks.
 ```
 
@@ -53,7 +53,7 @@ GeeksforGeeks is computer science portal for Geeks.
 
 ## 超文本标记语言
 
-```
+```vb
 <!-- Buffer Property is set to true -->
 <% response.Buffer=false %>
 <html>
@@ -70,6 +70,6 @@ GeeksforGeeks is computer science portal for Geeks.
 
 **输出:**这里的标志值设置为 false，这样输出就不会等待编译整个服务器脚本，它只会将输出发送到客户端。
 
-```
+```vb
 GeeksforGeeks is computer science portal for Geeks.
 ```

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```vb
 ***Server.GetLastError()***
 ```
 
@@ -20,7 +20,7 @@
 
 *   ***Pre-processing error:*** In the following example, when IIS tries to include files, there will be an error because the include statement is missing file parameters:
 
-```
+```vb
 <!--#include f="header.inc" -->
 <%
 response.write("sometext")
@@ -29,7 +29,7 @@ response.write("sometext")
 
 *   ***Script compilation error:*** The following code demonstrates that there will be errors when compiling scripts, because the keyword "next" is missing:
 
-```
+```vb
 ***<%***
 ***dim i***
 ***for i=1 to 10***

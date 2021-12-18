@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.CopyFolder source,destination[,overwrite] 
 ```
 
@@ -20,7 +20,7 @@ FileSystemObject.CopyFolder source,destination[,overwrite]
 
 ## Javascript
 
-```
+```vb
 <%
 'copy all the folders in c:\myfolders\hello
 'to the folder c:\pictures
@@ -35,6 +35,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Folder Copied
 ```

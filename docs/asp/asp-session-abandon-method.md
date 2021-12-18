@@ -8,7 +8,7 @@
 
 **语法**
 
-```
+```vb
 ***Session.Abandon*** 
 ```
 
@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```vb
 <% 
 Session.Abandon 
 %>
@@ -26,7 +26,7 @@ Session.Abandon 
 
 **例 2:**
 
-```
+```vb
 <%
 Session("name")="Hello GeeksforGeeks"
 Session.Abandon
@@ -36,6 +36,6 @@ Response.Write(Session("name"))
 
 **输出:**
 
-```
+```vb
 Hello GeeksforGeeks
 ```

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```vb
 TextStreamObject.Column
 ```
 
@@ -16,7 +16,7 @@ TextStreamObject.Column
 
 ## ASP
 
-```
+```vb
 <%
 dim gfg,f,t,x,y
 set gfg=Server.CreateObject("Scripting.FileSystemObject")
@@ -37,7 +37,7 @@ Response.Write("<br> at character position: " & y)
 
 **输出:**
 
-```
+```vb
 The last character in the text file is: s
 at character position: 19
 ```

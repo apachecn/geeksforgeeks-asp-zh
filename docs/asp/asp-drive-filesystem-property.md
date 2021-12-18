@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.FileSystem
 ```
 
@@ -19,7 +19,7 @@ DriveObject.FileSystem
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,dr
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -37,6 +37,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The file system in use is: NTFS
 ```

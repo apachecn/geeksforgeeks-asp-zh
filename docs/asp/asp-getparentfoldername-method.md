@@ -6,7 +6,7 @@ ASP 中的 ***GetParentFolderName 方法*** 用于返回一个字符串值，该
 
 **语法:**
 
-```
+```vb
 ***FileSystemObject.GetParentFolderName(path)*** 
 ```
 
@@ -18,7 +18,7 @@ ASP 中的 ***GetParentFolderName 方法*** 用于返回一个字符串值，该
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,p
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -30,6 +30,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 ***d:\sudo\GFG***
 ```

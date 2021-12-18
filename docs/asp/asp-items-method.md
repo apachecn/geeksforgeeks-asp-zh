@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DictionaryObject.Items
 ```
 
@@ -14,7 +14,7 @@ DictionaryObject.Items
 
 ## ASP
 
-```
+```vb
 <%
 dim dict,arr,i
 set dict=Server.CreateObject("Scripting.Dictionary")
@@ -40,7 +40,7 @@ set dict=nothing
 
 **输出:**
 
-```
+```vb
 The values in the dictionary are:
 Value: geeks
 Value: coding

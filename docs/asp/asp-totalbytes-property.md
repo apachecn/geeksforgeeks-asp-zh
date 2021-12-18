@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 Counter = Request.TotalBytes
 
 ```
@@ -19,7 +19,7 @@ Counter = Request.TotalBytes
 
 ## HTML
 
-```
+```vb
 <%
 dim countByte
 'counter variable that counts the total number of bytes

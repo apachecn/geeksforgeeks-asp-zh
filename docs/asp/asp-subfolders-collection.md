@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FolderObject.SubFolders
 ```
 
@@ -14,7 +14,7 @@ FolderObject.SubFolders
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,fo,x
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -35,7 +35,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Subfolder Name: html
 Subfolder Name: css
 Subfolder Name: asp

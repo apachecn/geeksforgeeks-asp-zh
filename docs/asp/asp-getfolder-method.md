@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.GetFolder(path)
 ```
 
@@ -18,7 +18,7 @@ FileSystemObject.GetFolder(path)
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,f
 set fs=Server.CreateObject("Scripting.FileSystemObject")

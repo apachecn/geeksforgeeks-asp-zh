@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.VolumeName[=newname]
 ```
 
@@ -18,7 +18,7 @@ DriveObject.VolumeName[=newname]
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,d1,d2
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -43,7 +43,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 The volume name is: Windows
 The volume name is: Software
 ```

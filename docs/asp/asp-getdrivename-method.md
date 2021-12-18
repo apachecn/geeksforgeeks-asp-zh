@@ -6,7 +6,7 @@
 
 ***句法***
 
-```
+```vb
 FileSystemObject.GetDriveName(path) 
 ```
 
@@ -18,7 +18,7 @@ FileSystemObject.GetDriveName(path)
 
 ## Javascript
 
-```
+```vb
 <%
 dim fs,dname
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -30,7 +30,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 d
 ```
 
@@ -38,7 +38,7 @@ d
 
 ## Javascript
 
-```
+```vb
 <%
 dim fs,dname
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -50,6 +50,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 c
 ```

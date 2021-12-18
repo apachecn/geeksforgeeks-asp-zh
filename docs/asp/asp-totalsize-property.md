@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 DriveObject.TotalSize
 ```
 
@@ -14,7 +14,7 @@ DriveObject.TotalSize
 
 ## ASP
 
-```
+```vb
 <%
 dim fs,d
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -32,6 +32,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 Total size of drive: 499368587264 bytes
 ```

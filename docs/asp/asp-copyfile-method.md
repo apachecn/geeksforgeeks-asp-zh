@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 FileSystemObject.CopyFile source,destination[,overwrite] 
 ```
 
@@ -20,7 +20,7 @@ FileSystemObject.CopyFile source,destination[,overwrite]
 
 ## ASP
 
-```
+```vb
 <%
 dim gfg
 set gfg=Server.CreateObject("Scripting.FileSystemObject")
@@ -32,6 +32,6 @@ set gfg=nothing
 
 **输出:**
 
-```
+```vb
 File is Copied 
 ```

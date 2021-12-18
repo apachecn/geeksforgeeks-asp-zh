@@ -6,7 +6,7 @@
 
 ***语法:***
 
-```
+```vb
 Application.Unlock
 ```
 
@@ -16,7 +16,7 @@ Application.Unlock
 
 **示例:**下方代码解锁安全。
 
-```
+```vb
 <%
 Application.Lock
 Application("visits")=Application("visits")+1

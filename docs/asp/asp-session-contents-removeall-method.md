@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```vb
 ***Session.Contents.RemoveAll()***
 ```
 
@@ -16,7 +16,7 @@
 
 **示例代码:**下面的代码用于从内容集合中删除所有项目。
 
-```
+```vb
 <%
 Session.Contents.RemoveAll()
 %>

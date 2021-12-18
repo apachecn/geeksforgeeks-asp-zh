@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```vb
 <SCRIPT LANGUAGE=ScriptLanguage RUNAT=Server>
 Sub Session_OnStart
 . . .  
@@ -24,7 +24,7 @@ End Sub
 
 ## Global.asa
 
-```
+```vb
 <script language="vbscript" runat="server">
 
 Sub Application_OnEnd()
@@ -52,7 +52,7 @@ End Sub
 
 ## index.asp
 
-```
+```vb
 <html>
 <head>
 </head>
@@ -69,6 +69,6 @@ online now!
 
 **输出:**
 
-```
+```vb
 There are online now!
 ```

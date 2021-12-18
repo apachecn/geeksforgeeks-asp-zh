@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```vb
 response.Charset(charsetname)
 ```
 
@@ -18,18 +18,18 @@ response.Charset(charsetname)
 
 *   If the character set attribute is not set in the asp page, the content type title will look like:
 
-```
+```vb
 content-type:text/html
 ```
 
 *   If the ASP page contains the same attributes
 
-```
+```vb
 <% response.Charset=ISO-8859-13 >
 ```
 
 *   The title of the content type will be as follows:
 
-```
+```vb
 content-type:text/html; Charset=ISO-8859-13
 ```

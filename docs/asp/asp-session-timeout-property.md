@@ -6,7 +6,7 @@
 
 ***句法***
 
-```
+```vb
 ***Session.Timeout[=nMinutes]*** 
 ```
 
@@ -16,7 +16,7 @@
 
 ***例:***
 
-```
+```vb
 ***<%***
 ***response.write("<p>")***
 ***response.write("The initial Timeout is: " & Session.Timeout)***
@@ -33,7 +33,7 @@
 
 **输出:**
 
-```
+```vb
 ***Initial  Timeout is: 20***
 ***Now the Timeout is set to: 35***
 ```

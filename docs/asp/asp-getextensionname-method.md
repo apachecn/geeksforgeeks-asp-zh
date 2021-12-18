@@ -6,7 +6,7 @@ ASP 中的 **GetExtensionName 方法**用于返回一个字符串值，该字符
 
 **语法:**
 
-```
+```vb
 FileSystemObject.GetExtensionName(path)
 ```
 
@@ -18,7 +18,7 @@ FileSystemObject.GetExtensionName(path)
 
 ## ASP
 
-```
+```vb
 <%
 dim fs
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -29,7 +29,7 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 asp
 ```
 
@@ -37,7 +37,7 @@ asp
 
 ## ASP
 
-```
+```vb
 <%
 dim fs
 set fs=Server.CreateObject("Scripting.FileSystemObject")
@@ -48,6 +48,6 @@ set fs=nothing
 
 **输出:**
 
-```
+```vb
 htm
 ```
